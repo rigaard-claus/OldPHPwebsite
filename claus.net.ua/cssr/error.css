@@ -1,0 +1,38 @@
+body
+{
+	background-image: url(http://claus.net.ua/imgr/BGr04.jpg);
+}
+#wrapperAll
+{
+	width: 400px;
+	height: 190px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #8D5B5A;
+	text-align: center;
+	background-color: #E9CD9D;
+}
+#errorRus
+{
+	color: #ff0000;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+#errorEng
+{
+	color: #9B0000;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+#wrapperAllAttempt
+{
+	width: 400px;
+	height: 165px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #8D5B5A;
+	text-align: center;
+	background-color: #E9CD9D;
+}

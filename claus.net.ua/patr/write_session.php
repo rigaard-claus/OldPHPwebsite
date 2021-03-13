@@ -1,0 +1,35 @@
+<?php 
+require_once('../libr/my_crypt.php');
+	$pass=myencryption($login.$pass,'RigaardArt','982');
+	$userres=query("SELECT userpic,login,date,man,age,mail,showmail,country,city,level FROM authorisationr WHERE password='$pass'",$db);
+	if($userres->num_rows>0)
+	{
+		$currentuser=$userres->fetch_array(MYSQLI_ASSOC);
+		$_SESSION['sesuserpic']=$currentuser['userpic'];
+		$_SESSION['seslogin']=$currentuser['login'];
+		$_SESSION['sesdate']=$currentuser['date'];
+		$_SESSION['sesman']=$currentuser['man'];
+		$_SESSION['sesage']=$currentuser['age'];
+		if(showmail){$_SESSION['sesmail']=$currentuser['sesmail'];}else{$_SESSION['mail']='';}
+		$_SESSION['sescountry']=$currentuser['country'];
+		$_SESSION['sescity']=$currentuser['city'];
+		$_SESSION['seslevel']=$currentuser['level'];
+	}
+	else
+	{
+		$userres2=query("SELECT userpic,login,date,man,age,mail,showmail,country,city FROM preauthorisationr WHERE password='$pass'",$db);		
+		if($userres2->num_rows>0)
+		{
+		$currentuser2=$userres2->fetch_array(MYSQLI_ASSOC);
+		$_SESSION['sesuserpic']=$currentuser2['userpic'];
+		$_SESSION['seslogin']=$currentuser2['login'];
+		$_SESSION['sesdate']=$currentuser2['date'];
+		$_SESSION['sesman']=$currentuser2['man'];
+		$_SESSION['sesage']=$currentuser2['age'];
+		if(showmail){$_SESSION['sesmail']=$currentuser2['mail'];}else{$_SESSION['sesmail']='';}
+		$_SESSION['sescountry']=$currentuser2['country'];
+		$_SESSION['sescity']=$currentuser2['city'];
+		unset($_SESSION['seslevel']);
+		}
+	}
+?>

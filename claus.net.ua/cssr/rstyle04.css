@@ -1,0 +1,300 @@
+#cabAuthorisationWrapper
+{
+	width: 180px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FAEAD3;
+	position: relative;
+}
+#filletAuthorisationLT
+{
+	position: absolute;
+	left: -10px;
+	top: 0px;
+}
+#filletAuthorisationRT
+{
+	position: absolute;
+	right: -10px;
+	top: 0px;
+}
+#filletAuthorisationLB
+{
+	position: absolute;
+	left: -10px;
+	bottom: 0px;
+}
+#filletAuthorisationRB
+{
+	position: absolute;
+	right: -10px;
+	bottom: 0px;
+}
+#leftStrokeAuthorisation
+{
+	position: absolute;
+	left:-10px;
+	top:10px;
+	width: 10px;
+	height: 230px;
+	background-color: #FAEAD3;
+}
+#rightStrokeAuthorisation
+{
+	position: absolute;
+	right:-10px;
+	top:10px;
+	width: 10px;
+	height: 230px;
+	background-color: #FAEAD3;
+}
+
+#cabAuthorisationContentWrapper01
+{
+	position: absolute;
+	left: 8px;
+	top: 18px;
+	width: 162px;
+	height: 212px;
+	background-color: #D1B492;
+   border: 2px solid #8D5B5A;
+}
+#cabAuthorisationContentWrapper02
+{
+	width: 160px;
+	height: 210px;
+	border: 1px solid #FAEAD3;
+   text-align: center;
+}
+#cabLoginTxt
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #626262;
+}
+#cabRulesTxt
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #626262;
+}
+#cabLoginDiv
+{
+	margin-top: 20px;
+}
+
+#cabRegistrationWrapper
+{
+	width: 540px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FAEAD3;
+	position: relative;
+}
+#cabRegistrationTopStroke
+{
+	position: absolute;
+	top:-10px;
+	left:10px;
+	height: 10px;
+	width: 520px;
+	background-color: #FAEAD3;
+}
+#cabRegistrationBottomStroke
+{
+	position: absolute;
+	bottom:-10px;
+	left:10px;
+	height: 10px;
+	width: 520px;
+	background-color: #FAEAD3;
+}
+#cabRegistrationMargin45
+{
+	height: 45px;
+}
+#filletRegistrationLT
+{
+	position: absolute;
+	left: 0px;
+	top: -10px;
+}
+#filletRegistrationRT
+{
+	position: absolute;
+	right: 0px;
+	top: -10px;
+}
+#filletRegistrationLB
+{
+	position: absolute;
+	left: 0px;
+	bottom: -10px;
+}
+#filletRegistrationRB
+{
+	position: absolute;
+	right: 0px;
+	bottom: -10px;
+}
+#cabRegistrationContentWrapper01
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 508px;
+	background-color: #D1B492;
+   border: 2px solid #8D5B5A;
+}
+#cabRegistrationContentWrapper02
+{
+	width: 506px;
+	border: 1px solid #FAEAD3;
+   text-align: left;
+	text-align: center;
+}
+#man, #year, #month, #day, #country
+{
+	background-color: #F5EAD6;
+}
+.suManual
+{
+	border: 1px solid #FAEAD3;
+	background-color: #C6A275;
+	font-weight: bold;
+}
+.suManual:hover
+{
+	background-color: #EEDCB9;
+	cursor: pointer;
+}
+
+.su04
+{
+	border: 1px solid #FAEAD3;
+	background-color: #E0B978;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 1px;
+}
+.su04:hover
+{
+	background-color: #F5EAD6;
+	cursor: pointer;
+}
+#cabUlTxt
+{
+	text-align: justify;
+	padding-right: 30px;
+	padding-left: 20px;
+	color: #8d5b5a;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+#cabUlTxt span
+{
+	color: #000000;
+	font-weight: normal;
+}
+#userpic
+{
+	background-color: #F5EAD6;	
+}
+#cabSmallTxt
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#626262;
+}
+#cabSmallTxtError
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CC0000;
+}
+
+#cabRegistrationContentWrapper02 #textinput,#country
+{
+	text-align: center;
+}
+#cabAuthorisationContentWrapper02 #textinput
+{
+	text-align: center;
+}
+#cabInformationTxt
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #626262;
+	text-align: justify;
+	text-indent: 35px;
+	padding: 20px;
+}
+#cabInformationTxt2
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #626262;
+	text-align: center;
+	text-indent:inherit;
+	padding: 20px;
+}
+#cabInformationTxt a
+{
+	font-size: 13px;
+}
+#cabInformationTxt2 a
+{
+	font-size: 13px;
+}
+#cabInformationErrorTxt
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #cc0000;
+	text-align: center;
+	padding: 20px;
+}
+#cabInformationErrorTxt span
+{
+ font-style: italic;
+ font-size: 18px;
+}
+#cabInformationAdminTxt
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #626262;
+	text-align: center;
+	padding: 20px;
+}
+#cabInformationAdminTxtLeft
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #626262;
+	text-align: left;
+	padding: 20px;
+}
+#cabInformationAdminTxtLeft #brownMarker
+{
+	color: #8d5b5a;
+}
+#cabInformationAdminTxtLeft #blueMarker
+{
+	color: #2F97FF;
+}
+#cabInformationAdminTxtLeft #redMarker
+{
+	color: #cc0000;
+}

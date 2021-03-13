@@ -1,0 +1,409 @@
+.artbd01
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+#artTitleSmall
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	font-style: normal;
+}
+#artViewC
+{
+	font-size: 9px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color: #737373;
+	line-height: 1.2;
+}
+#artViewV
+{
+	font-size: 9px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color: #B45454;
+	line-height: 1.2;
+}
+#artATD
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #3F3F3F;
+}
+#artTablePreview
+{
+	width: 520px;
+   text-align: center;
+   border: 0px;
+}
+#artTablePreviewTd
+{
+	padding: 0;
+	margin: 0;
+	border: 1px solid #FAEAD3;  
+}
+#artTablePreviewTr
+{
+	padding: 0;
+	margin: 0;
+}
+#artPreviewWrapper01
+{
+	border: 1px solid #FAEAD3;
+	text-align: center;
+}
+#artPreviewWrapper02
+{
+	border: 2px solid #8D5B5A;
+	background-color: #D1B492;
+}
+#artImgPreview01
+{
+	padding: 0px;
+	margin: 0px;
+}
+#addImg01
+{
+	width: 1024px;
+	height: 768px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #D1B492;
+	position: relative;
+}
+#addGreyBorderTop
+{
+	width: 1044px;
+	height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#addMargin10
+{
+	height: 10px;
+}
+#addGreyStrokeTop
+{
+	width: 1024px;
+	height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(http://claus.net.ua/art/aimg/avwr/topStroke.png);
+	background-repeat: repeat-x;	
+}
+#addGreyImg01
+{
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+#addGreyImg02
+{
+	right: 0px;
+	top: 0px;
+	position: absolute;
+}
+
+#addGreyBorderBottom
+{
+	width: 1044px;
+	height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#addGreyStrokeBottom
+{
+	width: 1024px;
+	height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(http://claus.net.ua/art/aimg/avwr/bottomStroke.png);
+	background-repeat: repeat-x;	
+}
+#addGreyImg03
+{
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+#addGreyImg04
+{
+	right: 0px;
+	top: 0px;
+	position: absolute;
+}
+
+#addGreyStrokeLeft
+{
+	width: 10px;
+	height: 848px;
+	float: left;
+	background-image: url(http://claus.net.ua/art/aimg/avwr/leftStroke.png);
+	background-repeat: repeat-y;
+}
+#addGreyStrokeRight
+{
+	width: 10px;
+	height: 848px;
+	float: right;
+	background-image: url(http://claus.net.ua/art/aimg/avwr/rightStroke.png);
+	background-repeat: repeat-y;
+}
+#addGreyWrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1044px;
+}
+
+#addGreyToolbar
+{
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+	width: 1024px;
+	background-color: #999999;
+	position: relative;
+}
+
+#addGreyTitle
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 350px;
+	height: 25px;
+	background-color: #999999;
+	text-align: center;
+}
+
+#addFillGrayTitle
+{
+	position: absolute;
+	top: 0px;
+	right: 350px;
+}
+
+#addTitleText
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#AddGreyNavWrapper
+{
+	margin-left: 40px;
+	height: 46px;
+	width: 500px;
+}
+#GreyNavTable
+{
+	height: 46px;
+	width: 500px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+#addLeftBtn
+{
+	position: absolute;
+	left: 0px;
+	top: 364px;
+}
+#addRightBtn
+{
+	position: absolute;
+	right: 0px;
+	top: 364px;
+}
+#addGreyContent
+{
+	position: absolute;
+	right:5px;
+	top:15px;
+	width: 434px;
+	height: 60px;
+	background-color: #BCBCBC;
+	text-align: right;
+	padding-right: 5px;
+}
+#fillGrey2
+{
+	position: absolute;
+	right: 444px;
+	top:15px;
+}
+#addGreyContentAuthor
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #b45454;
+}
+#addGreyContentTxt
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+#addGreyContentViews
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #626262;
+}
+#addGreyFlyNumber01
+{
+	width: 20px;
+	position: absolute;
+	left: 277px;
+	top: 50px;
+	text-align: center;
+}
+#addGreyFlyNumber02
+{
+	width: 20px;
+	position: absolute;
+	left: 226px;
+	top: 50px;
+	text-align: center;
+}
+#addGreyFlyNumber03
+{
+	width: 20px;
+	position: absolute;
+	left: 167px;
+	top: 50px;
+	text-align: center;
+}
+#addGreyFlyNumber04
+{
+	width: 20px;
+	position: absolute;
+	left: 328px;
+	top: 50px;
+	text-align: center;
+}
+#addGreyFlyNumber05
+{
+	width: 20px;
+	position: absolute;
+	left: 387px;
+	top: 50px;
+	text-align: center;
+}
+#flyNumberTxt01
+{
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	color: #BCBCBC;
+	font-weight: bold;	
+}
+#flyNumberTxt02
+{
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	color: #BCBCBC;
+	font-weight: bold;
+}
+#flyNumberTxt03
+{
+	font-family: Verdana, sans-serif;
+	font-size: 10px;
+	color: #BCBCBC;
+	font-weight: bold;
+}
+#addDisplay
+{
+	position: absolute;
+	left: 160px;
+	bottom: 5px;
+	background-color: #7b7b7b;
+	width: 260px;
+	height: 29px;
+}
+#fillGreyLeft3
+{
+	position: absolute;
+	left:140px;
+	bottom: 5px;
+}
+#fillGreyRight3
+{
+	position: absolute;
+	left:420px;
+	bottom: 5px;
+}
+#addGrayStroke
+{
+	position: absolute;
+	left: 5px;;
+	top: 50px;
+	height: 10px;
+	width: 570px;
+	border-bottom: 4px solid #BCBCBC;
+	border-top: 4px solid #BCBCBC;
+}
+#addGrayCircle
+{
+	position: absolute;
+	left: 0px;
+	bottom: 1px;
+}
+#addMainR
+{
+	position: absolute;
+	left: 5px;
+	bottom: 7px;
+}
+
+#contentWrapper
+{
+	margin-top: 0px;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(http://claus.net.ua/imgr/BGr04.jpg);
+}
+#borderWrapper
+{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	background-image: url(http://claus.net.ua/imgr/cmbt03.png);
+}
+
+#titleComments
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #626262;
+}
+#titleCommentsDiv
+{
+	text-align: center;
+	margin-top: 10px;
+}
+#papperWrapper
+{
+	width: 680px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+#conttComment
+{
+	min-height: 100px;
+   position: relative;
+}

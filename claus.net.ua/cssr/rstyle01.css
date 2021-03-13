@@ -1,0 +1,659 @@
+body
+{
+	margin: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../imgr/BGwood.jpg);
+}
+
+img
+{
+	border: 0px;
+}
+
+.generalR
+{
+	width: 1100px;
+	background-image: url(../imgr/cmbt03.png);
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+.tool01
+{
+	width: 1130px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../imgr/shad01.png);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.tool02
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+	position: relative;
+	background-image: url(../imgr/leftpaper.png);
+	background-repeat: no-repeat;
+	background-position: 0px 350px;
+}
+.tool03
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1300px;
+	position: relative;
+	background-image: url(../imgr/rightpaper.png);
+	background-repeat: no-repeat;
+	background-position: 1180px 100px;
+}
+.headLogo
+{
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	height: 156px;
+	background-color: #949494;
+}
+.headContacts
+{
+	width: 1000px;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #949494;
+}
+.hCon01
+{
+	width: 1000px;
+	height: 5px;
+}
+.hCon02
+{
+	width: 740px;
+	height: 55px;
+	float: left;
+}
+.hCon03
+{
+	float: left;
+}
+.hCon04
+{
+	float: right;
+}
+.hCon05
+{
+
+}
+.menuAdd
+{
+	width: 1000px;
+	height: 265px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #949494;
+}
+.stroke01
+{	
+	width: 1000px;
+	height: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #949494;
+}
+
+.tabB
+{
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px;
+	width: 1000px;
+	background-color: #949494;
+	background-image: url(../imgr/BGr04.jpg);	
+}
+.tdL
+{
+	width: 160px;
+	vertical-align: top;
+}
+.tdC
+{
+	width: 680px;
+	vertical-align: top;
+}
+.tabC
+{
+	margin-top: 20px;
+	border: 0px;
+	width: 680px;
+}
+.tdC01
+{
+	height:43px;
+}
+.tdC02
+{
+	width:31px;
+	background-image: url(../imgr/pergr2.png);
+	background-repeat: repeat-y;
+}
+.tdC03
+{
+	width:34px;
+	background-image: url(../imgr/pergr3.png);
+	background-repeat: repeat-y;
+}
+.tdC04
+{
+	height:34px;
+}
+.tdC05
+{
+	max-width: 615px;
+	width: 615px;
+	vertical-align: top;
+	background-color:#E9CD9D;
+}
+.contt
+{
+min-height: 648px;
+position: relative;
+}
+#im01
+{
+	position: absolute;
+	left: 0;
+	top: 0;	
+}
+#im02
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;	
+}
+
+#im03
+{
+	position: absolute;
+	left: 175px;
+	top: 538px;
+}
+#im031
+{
+	position: absolute;
+	left: 175px;
+	top: 568px;
+}
+#im032
+{
+	position: absolute;
+	left: 175px;
+	top: 599px;
+}
+#im033
+{
+	position: absolute;
+	left: 175px;
+	top: 631px;
+}
+#im034
+{
+	position: absolute;
+	left: 175px;
+	top: 662px;
+}
+#im035
+{
+	position: absolute;
+	left: 175px;
+	top: 694px;
+}
+
+#im04
+{
+	position: absolute;
+	right: 183px;
+	top: 535px;	
+}
+#im041
+{
+	position: absolute;
+	right: 183px;
+	top: 565px;
+}
+#im042
+{
+	position: absolute;
+	right: 183px;
+	top: 596px;	
+}
+
+#im05
+{
+	position: absolute;
+	left: 0px;
+	top: 380px;
+	z-index: 2;
+}
+#im06
+{
+	position: absolute;
+	left: -200px;
+	top: 0px;
+	z-index: 1;
+}
+
+.tdR
+{
+	width: 160px;
+	vertical-align: top;
+}
+
+.bottR
+{
+	width: 1000px;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+.left00
+{
+	width: 160px;
+	height: 270px;
+}
+.left01
+{
+	width: 21px;
+	height: 250px;
+	float: left;
+}
+.left02
+{
+	height: 41px;
+}
+.left03
+{
+	width: 21px;
+	height: 250px;
+	float: right;
+}
+.left04
+{
+
+}
+.left05
+{
+
+}
+.left06
+{
+
+}
+.left07
+{
+
+}
+.left08
+{
+
+}
+.left09
+{
+
+}
+.left10
+{
+
+}
+.left11
+{
+	width: 160px;
+	height: 20px;
+}
+
+.leftTab01
+{
+	height: 100%;
+	width: 160px;
+	vertical-align: bottom;
+	border: 0px;
+}
+.leftTabTd01
+{
+	height: 20px;
+}
+.leftTabTd02
+{
+	vertical-align: bottom;
+}
+.leftTabTd03
+{
+	height: 220px;
+	vertical-align: bottom;
+}
+.leftD01
+{
+	padding-left: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.right00
+{
+	width: 160px;
+	height: 150px;
+}
+.right01
+{
+	width: 160px;
+	height: 38px;
+}
+.right02
+{
+	width: 15px;
+	height: 112px;
+	float: left;
+}
+.right03
+{
+	width: 17px;
+	height: 112px;
+	float: right;
+
+}
+.right04
+{
+
+}
+.right05
+{
+
+}
+.right06
+{
+
+}
+.right07
+{
+
+}
+.rightD00
+{
+	width: 160px;
+	height: 380px;
+}
+.rightD01
+{
+	width: 160px;
+	height: 20px;
+}
+.rightD02
+{
+	padding-left: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.rightTab01
+{
+	height: 100%;
+	width: 160px;
+	border: 0px;
+}
+.rightTabTd01
+{
+	height: 20px;
+}
+#greyAuthorisationBlock
+{
+	width: 130px;
+	height: 200px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #999999;
+	position: relative;
+}
+#addGreyBlockImg01
+{
+	left: -10px;
+	top: -10px;
+	position: absolute;
+}
+#addGreyBlockImg02
+{
+	right: -10px;
+	top: -10px;
+	position: absolute;
+}
+#addGreyBlockImg03
+{
+	left: -10px;
+	bottom: -10px;
+	position: absolute;
+}
+#addGreyBlockImg04
+{
+	right: -10px;
+	bottom: -10px;
+	position: absolute;
+}
+#addGreyBlockImg05
+{
+	left: -10px;
+	top: 0px;
+	position: absolute;
+	width:10px;
+	height: 200px;
+	background-image: url(http://claus.net.ua/art/aimg/avwr/leftStroke.png);
+}
+#addGreyBlockImg06
+{
+	right: -10px;
+	top: 0px;
+	position: absolute;
+	width:10px;
+	height: 200px;
+	background-image: url(http://claus.net.ua/art/aimg/avwr/rightStroke.png);
+}
+#addGreyBlockImg07
+{
+	right: 0px;
+	top: -10px;
+	position: absolute;
+	width:130px;
+	height: 10px;
+	background-image: url(http://claus.net.ua/art/aimg/avwr/topStroke.png);
+}
+#addGreyBlockImg08
+{
+	right: 0px;
+	bottom: -10px;
+	position: absolute;
+	width:130px;
+	height: 10px;
+	background-image: url(http://claus.net.ua/art/aimg/avwr/bottomStroke.png);
+}
+
+#greyLoginDiv
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	color: #424242;
+}
+#greyLoginDiv2
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #424242;
+}
+#greyLoginDiv img
+{
+	border: 2px solid #BFBFBF;
+	padding: 2px;
+}
+#greyLoginDiv #textinput
+{
+	text-align: center;
+	background-color:#ACACAC;
+	font-size: 11px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #8D5B5A;
+}
+.su03grey
+{
+	border: 1px solid #BFBFBF;
+	background-color: #7E7E7E;
+	font-weight: bold;
+	margin-top: 0px;
+	color: #000000;
+}
+.su03grey:hover
+{
+	background-color: #BFBFBF;
+	cursor: pointer;
+	color: #626262;
+}
+#addGreyBlockFrameBrown
+{
+	border: 2px solid #ACACAC;
+	width: 124px;
+	height: 194px;
+}
+#greyLoginDivError
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 15px;
+	color: #cc0000;
+}
+#greyLoginDivError img
+{
+	border: 2px solid #cc0000;
+	padding: 2px;
+	background-color: #cc0000;
+}
+#greyLoginDivUser
+{
+	margin-top: 3px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #424242;
+}
+#greyLoginDivUser .su03grey
+{
+	margin-top: 2px;
+	font-size: 9px;
+}
+#greyLoginDivUserTxt
+{
+	text-align: center;
+	font-weight: normal;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #626262;
+}
+#greyLoginDivUserTxt a
+{
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #626262;
+}
+#greyLoginDivUserTxt a:hover
+{
+	color: #8D5B5A;
+}
+#registrationPreviewImg
+{
+	border: 2px solid #FAEAD3;
+	padding: 2px;
+	margin: 4px;
+}
+
+#setRegistration
+{
+	position: absolute;
+	bottom: 20px;
+	left:55px;
+	z-index: 1;
+}
+#setRegistration a
+{
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #626262;
+}
+#setRegistration a:hover
+{
+	color: #8D5B5A;
+}
+
+#setGreyRegistration
+{
+	position: absolute;
+	bottom: 10px;
+	left:30px;
+	z-index: 1;
+}
+#setGreyRegistration a
+{
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #626262;
+}
+#setGreyRegistration a:hover
+{
+	color: #8D5B5A;
+}
+
+#videoPlayer
+{
+	padding-left: 110px;
+	padding-bottom:40px;
+}
+#objectMargin
+{
+	height: 10px;
+}
+
+#TexTcenter
+{
+	padding: 10px;
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #424242;
+	font-size: 17px;
+}
+
+#flyTop100
+{
+	position: absolute;
+	right: 23px;
+	bottom: 15px;
+}
