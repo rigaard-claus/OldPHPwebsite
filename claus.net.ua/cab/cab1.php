@@ -3,7 +3,7 @@ if(isset($_POST['counter'])){if($_POST['counter']>5){require_once('../patr/hack_
 include("../patr/bdr.php");
 if(isset($_POST['send']))
 {$SERVER_ROOT = "http://claus.net.ua/cab/cab1.php";
-if(isset($_SERVER['HTTP_REFERER'])){if(!eregi("^$SERVER_ROOT",$_SERVER['HTTP_REFERER'])){require_once('../patr/hack_attempt.php');}}}
+if(isset($_SERVER['HTTP_REFERER'])){if(!preg_match("#^$SERVER_ROOT#",$_SERVER['HTTP_REFERER'])){require_once('../patr/hack_attempt.php');}}}
 else{unset($_POST);}
 @date_default_timezone_set (date_default_timezone_get());
 

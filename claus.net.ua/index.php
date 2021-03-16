@@ -2,7 +2,7 @@
 
 if(isset($_POST['sendgreyform']))
 {$SERVER_ROOT = "http://claus.net.ua/index.php";
-if(isset($_SERVER['HTTP_REFERER'])){if(!eregi("^$SERVER_ROOT",$_SERVER['HTTP_REFERER'])){require_once('patr/hack_attempt.php');}}}
+if(isset($_SERVER['HTTP_REFERER'])){if(!preg_match("#^$SERVER_ROOT#",$_SERVER['HTTP_REFERER'])){require_once('patr/hack_attempt.php');}}}
 else{unset($_POST['login']);unset($_POST['pass']);}
 include("patr/bdr.php");
 
@@ -107,7 +107,7 @@ else{echo "<p class='error'>Запрос не может быть выполне
         
             <td rowspan="2" class="tdR">
                 
-				<?php // include("patr/rigar.php"); // сломалась сассия, старая версия написаная практически вручную ?>
+				<?php include("patr/rigar.php"); ?>
                 
             </td>
       	</tr>

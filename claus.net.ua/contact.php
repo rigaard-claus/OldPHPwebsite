@@ -1,11 +1,11 @@
 <?php session_start(); if(isset($_POST['exit'])){session_destroy();session_start();}
 if(isset($_POST['send']))
 {$SERVER_ROOT = "http://claus.net.ua/contact.php";
-if(isset($_SERVER['HTTP_REFERER'])){if(!eregi("^$SERVER_ROOT",$_SERVER['HTTP_REFERER'])){require_once('patr/hack_attempt.php');}}}
+if(isset($_SERVER['HTTP_REFERER'])){if(!preg_match("#^$SERVER_ROOT#",$_SERVER['HTTP_REFERER'])){require_once('patr/hack_attempt.php');}}}
 else{unset($_POST['name']);unset($_POST['email']);unset($_POST['atext']);unset($_POST['ant']);unset($_POST['rowd']);}
 if(isset($_POST['sendgreyform']))
 {$SERVER_ROOT = "http://claus.net.ua/contact.php";
-if(isset($_SERVER['HTTP_REFERER'])){if(!eregi("^$SERVER_ROOT",$_SERVER['HTTP_REFERER'])){require_once('patr/hack_attempt.php');}}}
+if(isset($_SERVER['HTTP_REFERER'])){if(!preg_match("#^$SERVER_ROOT#",$_SERVER['HTTP_REFERER'])){require_once('patr/hack_attempt.php');}}}
 else{unset($_POST['login']);unset($_POST['pass']);}
 include("patr/bdr.php");
 
@@ -198,7 +198,7 @@ else{echo "<p class='error'>Запрос не может быть выполне
         
             <td rowspan="2" class="tdR">
                 
-				<?php // include("patr/rigar.php"); // сломалась сассия, старая версия написаная практически вручную ?>
+				<?php include("patr/rigar.php");?>
                 
             </td>
       	</tr>

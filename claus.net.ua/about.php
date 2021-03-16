@@ -177,7 +177,7 @@ else{echo "<p class='error'>Запрос не может быть выполне
         
             <td rowspan="2" class="tdR">
                 
-				<?php // include("patr/rigar.php"); // сломалась сассия, старая версия написаная практически вручную ?>
+				<?php include("patr/rigar.php"); ?>
                 
             </td>
       	</tr>

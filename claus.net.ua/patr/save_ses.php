@@ -116,7 +116,7 @@
 						return $newstr;
 					}
 					$pass=myencryption2($login.$pass,'RigaardArt','982');
-					$userres=query("SELECT userpic,login,date,man,age,mail,showmail,country,city,level,activated FROM authorisationr WHERE password='$pass'",$db);
+					$userres=$db->query("SELECT userpic,login,date,man,age,mail,showmail,country,city,level,activated FROM authorisationr WHERE password='$pass'");
 					if($userres->num_rows>0)
 					{
 						$currentuser=$userres->fetch_array(MYSQLI_ASSOC);
@@ -134,7 +134,7 @@
 					}
 					else
 					{
-						$userres2=query("SELECT userpic,login,date,man,age,mail,showmail,country,city FROM preauthorisationr WHERE password='$pass'",$db);		
+						$userres2=$db->query("SELECT userpic,login,date,man,age,mail,showmail,country,city FROM preauthorisationr WHERE password='$pass'");		
 						if($userres2->num_rows>0)
 						{
 						$currentuser2=$userres2->fetch_array(MYSQLI_ASSOC);
